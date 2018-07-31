@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_no_image"
+        android:contentDescription="Cover Image"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivCover"
+        android:layout_alignTop="@+id/ivCover"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/tvAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivCover"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Author 1, Author 2, ..."/>
+
+</RelativeLayout>
