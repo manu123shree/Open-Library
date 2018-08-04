@@ -24,6 +24,8 @@
 
         <activity android:name=".view.results.SearchResultsActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".view.details.SearchDetailsActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

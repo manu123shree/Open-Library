@@ -25,4 +25,12 @@ public class Book {
         }
         return names.toString();
     }
+    public String getIsbnString() {
+        StringBuilder builder = new StringBuilder();
+        for(String ISBN : ISBNs) {
+             builder.append(ISBN);
+
+        }
+        return builder.toString();
+    }
 }
